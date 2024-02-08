@@ -26,24 +26,24 @@ form {
   border: 1px solid;
   border-top-color: rgba(255,255,255,.4);
   border-left-color: rgba(255,255,255,.4);
-  border-bottom-color: rgba(60,60,60,.4);
-  border-right-color: rgba(60,60,60,.4);
+  border-bottom-color: rgba(255,255,255,.4);
+  border-right-color: rgba(255,255,255,.4);
 }
 
 form input, form button {
   width: 212px;
   border: 1px solid;
-  border-bottom-color: rgba( 255, 2, 2 );
-  border-right-color: rgba( 255, 2, 2 );
-  border-top-color: rgba( 255, 2, 2 );
-  border-left-color: rgba( 255, 2, 2 );
+  border-bottom-color: rgba( 255,255,255 );
+  border-right-color: rgba(255,255,255  );
+  border-top-color: rgba(255,255,255 );
+  border-left-color: rgba(255,255,255 );
   background-color: rgba(0,0,0,.2);
   background-repeat: no-repeat;
   padding: 8px 24px 8px 10px;
   font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
   letter-spacing: .075em;
   color: #fff;
-  text-shadow: 0 1px 0 rgba( 255, 2, 2 );
+  text-shadow: 0 1px 0 rgba(255,255,255);
   margin-bottom: 19px;
 }
 
@@ -68,9 +68,9 @@ form button[type=submit] {
   margin-bottom: 0;
   color: #000;
   letter-spacing: .05em;
-  text-shadow: 0 1px 0 #133d3e;
+  text-shadow: 0 1px 0 #0000;
   text-transform: uppercase;
-  background:  #ff0202 ;
+  background:  #ffff ;
   border-top-color: #9fb5b5;
   border-left-color: #608586;
   border-bottom-color: #1b4849;
